@@ -9,7 +9,7 @@
     name: "footer",
     data () {
       return {
-        footer: '这个是3页脚'
+        footer: '这个是4页脚'
       }
     }
   }

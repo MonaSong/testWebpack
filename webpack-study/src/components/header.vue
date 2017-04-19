@@ -9,7 +9,7 @@
     name: "header",
     data () {
       return {
-        header: '这个是页2头'
+        header: '这个是页3头'
       }
     }
   }
@@ -18,6 +18,6 @@
 <style lang="less" scoped>
   .header{
     color: #f30026;
-    font-size: 30px;
+    font-size: 50px;
   }
 </style>
