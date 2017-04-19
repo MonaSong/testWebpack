@@ -25,8 +25,8 @@ compiler.plugin('compilation', function (compilation) {
     cb()
   })
 })
-var staticPath = path.posix.join('/', 'dist')
-app.use(staticPath, express.static('./dist'))
+var staticPath = path.posix.join('/', 'src')
+app.use(staticPath, express.static('./src'))
 
 app.use(express.static('dist'))
 // app.get('/', function (req, res) {

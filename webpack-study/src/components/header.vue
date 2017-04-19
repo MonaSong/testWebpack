@@ -9,7 +9,7 @@
     name: "header",
     data () {
       return {
-        header: '这个是页3头'
+        header: '这个是页23头'
       }
     }
   }
