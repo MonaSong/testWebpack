@@ -5,6 +5,9 @@ var webpack = require('webpack')
 var webpackConfig = require('./webpack.config.js')
 var compiler = webpack(webpackConfig)
 
+Object.keys(webpackConfig.entry).forEach(function (name) {
+  webpackConfig.entry[name] = ['./dev-client'].concat(webpackConfig.entry[name])
+})
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {
   publicPath: '/',
